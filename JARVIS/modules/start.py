@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/CDX_WORLD"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BWANDARLOK")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/secret_societ"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/secret_societ")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ANNIEemon890/JARVIS-X-SPAM")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/srikanta309/X-SPAM")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [JARVIS](https://t.me/jarvis2O)**\n\n"
-        TEXT += f"» **ᴊᴀʀᴠɪs V2 :** `M 1.8.31`\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [—͟͞͞★ 𝒛𝙴xx ★](https://t.me/Zexx_6_Zexx)**\n\n"
+        TEXT += f"» **ᴢᴇxx V2 :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
               event.chat_id,
-                    "https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
+                    "https://graph.org/file/e5705c243539e7f116e4b.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
