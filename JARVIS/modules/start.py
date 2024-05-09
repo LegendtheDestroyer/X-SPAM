@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/secret_societ"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/secret_societ")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ABOUT_LEGEND_OWNER"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ABOUT_LEGEND_OWNER")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/srikanta309/X-SPAM")
+        Button.url("• ʀᴇᴘᴏ •", "chal nikl madhr chod")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [—͟͞͞★ 𝒛𝙴xx ★](https://t.me/Zexx_6_Zexx)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [—͟͞͞★⎯꯭̽𓆩〭〬༎꯭𝆺꯭꯭𝅥🥵❘⃟꯭𝄄.꯭꯭🇱꯭꯭ᴇ꯭ɢ꯭֟፝ᴇ꯭ɴ꯭ᴅ 𝆺꯭꯭𝅥༎𓆪꯭꯭⎯꯭⎯꯭̽💗  ★](https://t.me/l_CDX_L3G3ND_l)**\n\n"
         TEXT += f"» **ᴢᴇxx V2 :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
               event.chat_id,
-                    "https://graph.org/file/e5705c243539e7f116e4b.jpg",
+                    "https://telegra.ph/file/9db8e5d62d2a3b77a14ba.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
