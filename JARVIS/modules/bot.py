@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        jarvis = await e.reply(f"☞︎︎︎ —͟͞͞★ 𝒛𝙴xx ★")
+        jarvis = await e.reply(f"☞︎︎︎ —͟͞͞★ ⎯꯭̽𓆩〭〬༎꯭𝆺꯭꯭𝅥🥵❘⃟꯭𝄄.꯭꯭🇱꯭꯭ᴇ꯭ɢ꯭֟፝ᴇ꯭ɴ꯭ᴅ 𝆺꯭꯭𝅥༎𓆪꯭꯭⎯꯭⎯꯭̽💗 ★")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"[𝐳𝐞𝐱𝐱 𝐈𝐒 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 ](https://t.me/Zexx_6_Zexx)🤖\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"[𝐳𝐞𝐱𝐱 𝐈𝐒 𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊 ](https://t.me/l_CDX_L3G3ND_l)🤖\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __zexx Ka Ek Beta Aur Add Ho rha hai..__")
+        ok = await event.reply(f"» __LEGEND Ka Ek Beta Aur Add Ho rha hai..__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"YE BHI ZEXX KA HI BACHA HAI.. !!")
+            await ok.edit(f"YE BHI LEGEND KA HI BACHA HAI.. !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
@@ -127,4 +127,4 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» BSDK SIRF ZEXX SUDO DE SKTA HAI...")
+        await event.reply("» BSDK SIRF LEGEND SUDO DE SKTA HAI...")
