@@ -1,5 +1,5 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h3><img  style="align-item" :"center" https://graph.org/file/e5705c243539e7f116e4b.jpg="" width="80px" height="70%">
+<h3><img  style="align-item" :"center" https://ghttps://telegra.ph/file/6a02aa502aef8ada562f4.jpg="" width="80px" height="70%">
    <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=620&lines=✨+🦋+𝐇𝐄𝐘+𝐓𝐇𝐄𝐑𝐄+𝐓𝐇𝐈𝐒+𝐈𝐒+𝐳𝐞𝐱𝐱+🖤+🥀"></b></h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
